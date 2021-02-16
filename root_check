@@ -3,7 +3,7 @@
 if [ ${UID} -ne 0 ]
 then
 echo
-ehco "You need root access"
+ehco "You need root access for this command"
 echo
 exit 1
 fi
