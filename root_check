@@ -17,3 +17,4 @@ fi
 
 ##Checking memory
 free -m
+exit 0
