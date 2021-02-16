@@ -10,7 +10,9 @@ fi
 
 ## check number of  processors
 
-if [  'nproc' -eq 1]
+c=`nproc`
+
+if [  $ {c} -eq 1]
 	echo "This server is very small"
 	exit 2
 fi
