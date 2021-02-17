@@ -5,7 +5,7 @@ then
 echo
 ehco "You need root access for this command"
 echo
-exit 0
+exit 1
 fi
 
 ## check number of  processors
